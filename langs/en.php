@@ -32,17 +32,7 @@ $src2 = 'media/images/section8/work-steps-cryptobazar-en.svg';
    'record' => 'Check in',
    'title-veb' => 'How to prepare a project for<br> negotiations with an investor',
    'event-veb' => 'Upcoming</span> events:',
-   
-   'event-data1' => 'September',
- 'event-data2' => 'October',
-  'event-data3' => 'November',
-  'event-data4' => 'December-March',
-  
-   'event-sity1' => 'Dubai and Moscow',
-    'event-sity2' => 'Monaco and Moscow',
-     'event-sity3' => 'China',
-      'event-sity4' => 'Sweden, Singapore, London and Moscow',
-      'event-sity5' => '<a href="https://www.youtube.com/embed/nf7Ee-rtlX0?rel=0" target="_blank">View previous event record</a>',
+
  ];
 
  /**

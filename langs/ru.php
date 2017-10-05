@@ -27,27 +27,12 @@ $src2 = 'media/images/section8/work-steps-cryptobazar.svg';
  * Текст для шапки сайта
  */
  $header = [
-   'big-text' => '<span class="big-text">ИНВЕСТИРУЙТЕ В ПРОЕКТЫ</span><br/>ДО ИХ ВЫВОДА НА ICO',
-   'description' => 'и получайте кратный прирост к вложениям',
-   'date' => '<strong>БЕСПЛАТНЫЙ ВЕБИНАР</strong><br><strong>17 августа в</strong> 20:00',
-   'record' => 'Зарегистрироваться',
-  'title-veb' => 'Как подготовить проект<br> к переговорам с инвестором',
-  'event-veb' => 'Ближайшие</span> события:',
-
-  'event-data1' => 'Сентябрь',
- 'event-data2' => 'Октябрь',
-  'event-data3' => 'Ноябрь',
-  'event-data4' => 'Декабрь-Март',
-
-   'event-sity1' => 'Дубай и Москва',
-    'event-sity2' => 'Монако и Москва ',
-     'event-sity3' => 'Китай ',
-      'event-sity4' => 'Швеция, Сингапур, Лондон и Москва',
-  'event-sity5' => '<a href="https://www.youtube.com/embed/nf7Ee-rtlX0?rel=0" target="_blank">Смотреть запись предыдущего мероприятия</a>',
-
-
-
-
+    'big-text' => '<span class="big-text">ИНВЕСТИРУЙТЕ В ПРОЕКТЫ</span><br/>ДО ИХ ВЫВОДА НА ICO',
+    'description' => 'и получайте кратный прирост к вложениям',
+    'date' => '<strong>БЕСПЛАТНЫЙ ВЕБИНАР</strong><br><strong>17 августа в</strong> 20:00',
+    'record' => 'Зарегистрироваться',
+    'title-veb' => 'Как подготовить проект<br> к переговорам с инвестором',
+    'event-veb' => 'Ближайшие</span> события:',
  ];
 
  /**

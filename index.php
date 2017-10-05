@@ -125,60 +125,26 @@
 
 <section id="section2_1">
     <div class="content-wrapper">
-<h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
-       
-       
-<div class="newsection"> 
-<div class="newsection-left">
-<p class="info-block-heading">CryptoBazar Москва </p>
-<p class="info-block-description">21 Сентября 16:30 Мск </p>
-<div class="name_2_1">Известия Hall, Пушкинская площадь, д.5   </div>
-<a href="https://youtu.be/fCy0qj4xrws" class="more-button-bay" target="_blank">Смотреть запись</a>
-</div>
+        <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
 
-<div class="newsection-right"> 
-<p class="info-block-heading">InvestBazar & CryptoBazar Dubai </p>
-<p class="info-block-description">27 сентября 16:00 Мск </p>
-<div class="name_2_1">Rixos Premium hotel, Diamond Hall</div>
-<a href="https://youtu.be/YcZOzPbx4yw" class="more-button-bay" target="_blank">Смотреть запись</a>
-</div>
-  </div>     
-       
-<div class="info-blocks-container">
-                <div class="info-block">
-                <p class="info-block-heading"><?php echo $header['event-data1']; ?></p>
-                <div class="line"></div>
-                <div class="adress"><img src="/media/images/section2_1/1.png"></div>
-               <p class="info-block-description"><?php echo $header['event-sity1']; ?></p>
-                <div class="name_2_1">InvestBazar & CryptoBazar</div>
+
+        <div class="newsection">
+            <div class="newsection-left">
+                <p class="info-block-heading">Ноябрь</p>
+                <img src="media/images/section2_1/moscow.jpg" alt="Moscow">
+                <p class="info-block-description">Москва - 15 ноября</p>
+                <a class="more-button-bay" target="_blank">Оставить заявку</a>
             </div>
-                      <div class="info-block">
-                <p class="info-block-heading"><?php echo $header['event-data2']; ?></p>
-                <div class="line"></div>
-                 <div class="adress"><img src="/media/images/section2_1/2.png"></div>
-               <p class="info-block-description"><?php echo $header['event-sity2']; ?></p>
-                <div class="name_2_1">InvestBazar & CryptoBazar</div>
+
+            <div class="newsection-right">
+                <p class="info-block-heading">Ноябрь</p>
+                <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">
+                <p class="info-block-description">Швейцария - уточняется</p>
+                <a class="more-button-bay" target="_blank">Оставить заявку</a>
             </div>
-                      <div class="info-block">
-                <p class="info-block-heading"><?php echo $header['event-data3']; ?></p>
-                <div class="line"></div>
-                 <div class="adress"><img src="/media/images/section2_1/3.png"></div>
-               <p class="info-block-description"><?php echo $header['event-sity3']; ?></p>
-                <div class="name_2_1">InvestBazar & CryptoBazar</div>
-            </div>
-                      <div class="info-block last">
-                <p class="info-block-heading"><?php echo $header['event-data4']; ?></p>
-                <div class="line"></div>
-                 <div class="adress"><img src="/media/images/section2_1/4.png"></div>
-               <p class="info-block-description"><?php echo $header['event-sity4']; ?></p>
-                <div class="name_2_1">InvestBazar & CryptoBazar</div>
-            </div>
-                  </div>       
-       
-        <div class="ev"><?php echo $header['event-sity5']; ?></div>
         </div>
-       
     </div>
+
 </section>
 
 <section id="section3">
