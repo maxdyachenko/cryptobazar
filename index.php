@@ -132,14 +132,14 @@
                 <p class="info-block-heading"><?php echo $upcoming_events_left['month']; ?></p>
                 <img src="media/images/section2_1/moscow.jpg" alt="Moscow">
                 <p class="info-block-description"><?php echo $upcoming_events_left['date']; ?></p>
-                <a class="more-button-bay" target="_blank"><?php echo $upcoming_events_left['popup_button']; ?></a>
+                <button class="more-button-bay" data-popup-open="popup-leave-request"><?php echo $upcoming_events_left['popup_button']; ?></button>
             </div>
 
             <div class="newsection-right">
                 <p class="info-block-heading"><?php echo $upcoming_events_right['month']; ?></p>
                 <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">
                 <p class="info-block-description"><?php echo $upcoming_events_right['date']; ?></p>
-                <a class="more-button-bay" target="_blank"><?php echo $upcoming_events_right['popup_button']; ?></a>
+                <button class="more-button-bay" data-popup-open="popup-leave-request"><?php echo $upcoming_events_right['popup_button']; ?></button>
             </div>
         </div>
     </div>
@@ -435,6 +435,31 @@
         </div>
     </div>
 </div>
+<div class="underlayer">
+
+</div>
+<div class="popup-inner" data-popup="popup-leave-request">
+    <h2><?php echo $name_popup; ?></h2>
+    <form action="http://email.businesslift.tv/add_subscriber.html" accept-charset="utf-8" method="post">
+        <!-- Имя -->
+        <input type="text" name="first_name" placeholder="Name">
+        <!-- Поле Email (обязательно) -->
+        <input type="text" name="email" placeholder="Email" required>
+        <input name="custom_phone_mobile" type="text" value="" placeholder="Phone">
+        <!-- API ID -->
+        <!-- Получить API ID на: http://email.businesslift.tv/campaign_list.html -->
+        <input type="hidden" name="campaign_token" value="M" />
+        <!-- Страница благодарности (по желанию) -->
+        <input type="hidden" name="thankyou_url" value=""/>
+        <!-- Добавить подписчика в цикл на определенный день (по желанию) -->
+        <input type="hidden" name="start_day" value="0" />
+        <!-- Forward form data to your page (optional) -->
+        <input type="hidden" name="forward_data" value="" />
+        <!-- Кнопка подписаться -->
+        <input type="submit" value="<?php echo $button_popup; ?>"/>
+    </form>
+</div>
+
 
 
 

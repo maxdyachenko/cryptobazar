@@ -338,3 +338,10 @@ $contact_info = '<h4 class="header">CRYPTO BAZAR</h4>
 <p class="address">БЦ «Барклай Плаза» ул. Барклая, д.6 стр.5<br/>г. Москва, м. Парк Победы</p>
 <a class="email" href="mailto:info@cryptobazar.io">Написать E-mail</a>
 <p class="site">www.cryptobazar.io © All rights reserved. 2017</p>';
+
+
+/**
+ * Текст для попапа Регистрация проекта (открывается с блока Ближайшие события)
+ */
+$name_popup = 'Регистрация проекта';
+$button_popup = 'Подать заявку';

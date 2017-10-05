@@ -1,4 +1,18 @@
 $(document).ready(function () {
+	//script for popup
+    $('[data-popup-open]').on('click', function(e)  {
+        var targeted_popup_class = $(this).attr('data-popup-open');
+        $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+        $('.underlayer').fadeIn(350);
+        e.stopPropagation();
+    });
+    $('.underlayer').click(function(e){
+        $('.popup-inner').fadeOut();
+        $('.underlayer').fadeOut();
+    });
+
+
+
     $('.slick-carousel').slick({
         dots: true,
         speed: 300,

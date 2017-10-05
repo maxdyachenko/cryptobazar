@@ -2661,6 +2661,7 @@ input[type="submit"].button-form {
 
 .more-button-bay {
 	display: block;
+	width: 100%;
 	font-size: 24px;
 	font-weight: 300;
 	padding: .8em 0;
@@ -2670,6 +2671,7 @@ input[type="submit"].button-form {
 	margin: 1em auto 0;
 	background-color: #6793bd;
 	text-align: center;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -2710,6 +2712,62 @@ input[type="submit"].button-form {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+}
+
+.underlayer{
+	width:100%;
+	height:100%;
+	display:none;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:rgba(0,0,0,0.75);
+}
+.popup-inner{
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%,0);
+	min-width: 320px;
+	max-width: 560px;
+	border-radius: 15px;
+	background: rgb(240, 240, 240);
+	padding: 40px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px 0px;
+}
+.popup-inner h2{
+	font: bold 24px / 1 Roboto;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.popup-inner input{
+	margin-bottom: 10px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #555;
+	display: block;
+	font-size: 14px;
+	font-family: Roboto;
+	height: 38px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	width: 100%;
+}
+.popup-inner input:last-of-type{
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: .8em;
+	height: auto;
+	color: white;
+	background-color: #6793bd;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: all .25s;
+}
+.popup-inner input:last-of-type:hover {
+	background-color: #eb8909;
 }
 
 
