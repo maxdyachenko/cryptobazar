@@ -127,20 +127,19 @@
     <div class="content-wrapper">
         <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
 
-
         <div class="newsection">
             <div class="newsection-left">
-                <p class="info-block-heading">Ноябрь</p>
+                <p class="info-block-heading"><?php echo $upcoming_events_left['month']; ?></p>
                 <img src="media/images/section2_1/moscow.jpg" alt="Moscow">
-                <p class="info-block-description">Москва - 15 ноября</p>
-                <a class="more-button-bay" target="_blank">Оставить заявку</a>
+                <p class="info-block-description"><?php echo $upcoming_events_left['date']; ?></p>
+                <a class="more-button-bay" target="_blank"><?php echo $upcoming_events_left['popup_button']; ?></a>
             </div>
 
             <div class="newsection-right">
-                <p class="info-block-heading">Ноябрь</p>
+                <p class="info-block-heading"><?php echo $upcoming_events_right['month']; ?></p>
                 <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">
-                <p class="info-block-description">Швейцария - уточняется</p>
-                <a class="more-button-bay" target="_blank">Оставить заявку</a>
+                <p class="info-block-description"><?php echo $upcoming_events_right['date']; ?></p>
+                <a class="more-button-bay" target="_blank"><?php echo $upcoming_events_right['popup_button']; ?></a>
             </div>
         </div>
     </div>

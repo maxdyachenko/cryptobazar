@@ -32,8 +32,21 @@ $src2 = 'media/images/section8/work-steps-cryptobazar-en.svg';
    'record' => 'Check in',
    'title-veb' => 'How to prepare a project for<br> negotiations with an investor',
    'event-veb' => 'Upcoming</span> events:',
-
  ];
+
+/**
+ * Текст для Ближайшие События
+ */
+$upcoming_events_left = [
+    'month' => 'November',
+    'date' => 'Moscow - 15 november',
+    'popup_button' => 'Leave a request',
+];
+$upcoming_events_right = [
+    'month' => 'November',
+    'date' => 'Switzerland - to be specified',
+    'popup_button' => 'Leave a request',
+];
 
  /**
   * Текст для условий сотрудничества (моб. версия)

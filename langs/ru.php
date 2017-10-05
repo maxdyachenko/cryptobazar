@@ -35,6 +35,21 @@ $src2 = 'media/images/section8/work-steps-cryptobazar.svg';
     'event-veb' => 'Ближайшие</span> события:',
  ];
 
+/**
+ * Текст для Ближайшие События
+ */
+$upcoming_events_left = [
+    'month' => 'Ноябрь',
+    'date' => 'Москва - 15 ноября',
+    'popup_button' => 'Оставить заявку',
+];
+$upcoming_events_right = [
+    'month' => 'Ноябрь',
+    'date' => 'Швейцария - уточняется',
+    'popup_button' => 'Оставить заявку',
+];
+
+
  /**
   * Текст для условий сотрудничества (моб. версия)
   */
