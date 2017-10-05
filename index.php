@@ -1,22 +1,20 @@
 <?php
-session_start();
-error_reporting(0);
+    session_start();
+    error_reporting(0);
 
-require 'langs/GetLanguageByCountry.php';
+    require 'langs/GetLanguageByCountry.php';
 
-if (!empty(ltrim($_SERVER['REQUEST_URI'], '/'))) {
-  $_SESSION['lang'] = trim(strip_tags(ltrim($_SERVER['REQUEST_URI'], '/')));
-  setcookie('lang', trim(strip_tags(ltrim($_SERVER['REQUEST_URI'], '/'))), time() + 2592000);
-} elseif (isset($_COOKIE['lang'])) {
-  $_SESSION['lang'] = $_COOKIE['lang'];
-} else {
-    $_SESSION['lang'] = getLanguageByCountry($_SERVER['REMOTE_ADDR']);
-}
-  if (file_exists('langs/' . $_SESSION['lang'] . '.php')) {
-    require 'langs/' . $_SESSION['lang'] . '.php';
-  } else {
-    exit(header('Location: /404'));
-  }
+    if (!empty(ltrim($_SERVER['REQUEST_URI'], '/'))) {
+        $_SESSION['lang'] = trim(strip_tags(ltrim($_SERVER['REQUEST_URI'], '/')));
+    }
+    else {
+        $_SESSION['lang'] = getLanguageByCountry($_SERVER['REMOTE_ADDR']);
+    }
+    if (file_exists('langs/' . $_SESSION['lang'] . '.php')) {
+        require 'langs/' . $_SESSION['lang'] . '.php';
+    } else {
+        exit(header('Location: /404'));
+    }
 ?>
 
 <!DOCTYPE html>
