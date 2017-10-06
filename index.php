@@ -142,6 +142,7 @@
                 <button class="more-button-bay" data-popup-open="popup-leave-request"><?php echo $upcoming_events_right['popup_button']; ?></button>
             </div>
         </div>
+        <div class="ev"><?php echo $header['event-sity']; ?></div>
     </div>
 
 </section>

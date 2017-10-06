@@ -26,12 +26,13 @@ $src2 = 'media/images/section8/work-steps-cryptobazar-en.svg';
  * Текст для шапки сайта
  */
  $header = [
-   'big-text' => '<span class="big-text">INVEST IN PROJECTS</span><br/>BEFORE ICO',
-   'description' => 'and watch your capital grow exponentially',
-   'date' => '<strong>FREE WEBINAR</strong><br><strong>August 17</strong> 20:00',
-   'record' => 'Check in',
-   'title-veb' => 'How to prepare a project for<br> negotiations with an investor',
-   'event-veb' => 'Upcoming</span> events:',
+    'big-text' => '<span class="big-text">INVEST IN PROJECTS</span><br/>BEFORE ICO',
+    'description' => 'and watch your capital grow exponentially',
+    'date' => '<strong>FREE WEBINAR</strong><br><strong>August 17</strong> 20:00',
+    'record' => 'Check in',
+    'title-veb' => 'How to prepare a project for<br> negotiations with an investor',
+    'event-veb' => 'Upcoming</span> events:',
+    'event-sity' => '<a href="https://www.youtube.com/watch?v=YcZOzPbx4yw&feature=youtu.be" target="_blank">View previous event record</a>'
  ];
 
 /**
@@ -44,7 +45,7 @@ $upcoming_events_left = [
 ];
 $upcoming_events_right = [
     'month' => 'November',
-    'date' => 'Switzerland - to be specified',
+    'date' => 'Switzerland - date will be soon',
     'popup_button' => 'Leave a request',
 ];
 

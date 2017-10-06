@@ -33,6 +33,7 @@ $src2 = 'media/images/section8/work-steps-cryptobazar.svg';
     'record' => 'Зарегистрироваться',
     'title-veb' => 'Как подготовить проект<br> к переговорам с инвестором',
     'event-veb' => 'Ближайшие</span> события:',
+    'event-sity' => '<a href="https://www.youtube.com/watch?v=YcZOzPbx4yw&feature=youtu.be" target="_blank">Смотреть запись предыдущего мероприятия</a>'
  ];
 
 /**
@@ -45,7 +46,7 @@ $upcoming_events_left = [
 ];
 $upcoming_events_right = [
     'month' => 'Ноябрь',
-    'date' => 'Швейцария - уточняется',
+    'date' => 'Швейцария - дата уточняется',
     'popup_button' => 'Оставить заявку',
 ];
 

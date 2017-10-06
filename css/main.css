@@ -2314,7 +2314,6 @@ h4 {
 	color: #000;
 	font-size: 23px;
 	font-weight: bold;
-	margin-top: 10px;
 }
 
 .name_2_1 {
@@ -2697,7 +2696,7 @@ input[type="submit"].button-form {
 }
 
 .newsection img{
-	margin-top: 10px;
+	margin: 15px 0;
 }
 
 .newsection-left {
