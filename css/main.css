@@ -1561,6 +1561,9 @@ h4 {
 		color: #fff;
 		font-size: 1.8em
 	}
+	body .popup-inner {
+		padding: 40px;
+	}
 }
 
 @media screen and (max-width: 560px) {
@@ -2663,6 +2666,9 @@ input[type="submit"].button-form {
 	width: 100%;
 	font-size: 24px;
 	font-weight: 300;
+	font-family: Roboto;
+	outline: none;
+	border: none;
 	padding: .8em 0;
 	transition: background-color .2s ease-in-out, color .2s ease-in-out;
 	border-radius: 10px;
@@ -2676,6 +2682,9 @@ input[type="submit"].button-form {
 
 .more-button-bay:hover {
 	background-color: #eb8909;
+}
+.more-button-bay:focus {
+	outline: none;
 }
 
 .more-button-bay1 {
@@ -2732,7 +2741,7 @@ input[type="submit"].button-form {
 	max-width: 560px;
 	border-radius: 15px;
 	background: rgb(240, 240, 240);
-	padding: 40px;
+	padding: 60px;
 	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 50px 0px;
 }
 .popup-inner h2{
@@ -2747,8 +2756,7 @@ input[type="submit"].button-form {
 	border-radius: 3px;
 	color: #555;
 	display: block;
-	font-size: 14px;
-	font-family: Roboto;
+	font: 300 14px / 1 Roboto;
 	height: 38px;
 	line-height: 1.42857;
 	padding: 6px 12px;
@@ -2763,6 +2771,7 @@ input[type="submit"].button-form {
 	background-color: #6793bd;
 	cursor: pointer;
 	text-transform: uppercase;
+	font: 300 14px / 1 Roboto;
 	transition: all .25s;
 }
 .popup-inner input:last-of-type:hover {
