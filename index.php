@@ -131,7 +131,7 @@
         <p class="event-info-below"><?php echo $event_below['bottom'] ?></p>
 
         <div class="video-container">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/iYzX-L2u-y0" frameborder="0" gesture="media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/iYzX-L2u-y0" frameborder="0" gesture="media" allowfullscreen></iframe>
         </div>
 
         <div class="button-wrapper">

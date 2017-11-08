@@ -1981,6 +1981,9 @@ h4 {
 		padding: 20px;
 		border-bottom: 0px solid #000;
 	}
+	#section2_1 .video-container {
+		min-width: 90% !important;
+	}
 	
 	.right-13 .block13 {
 		margin-top: 7em !important;
@@ -2337,7 +2340,7 @@ h4 {
 }
 #section2_1 .video-container {
 	position:relative;
-	min-width:700px;
+	min-width: 700px;
 	padding-bottom:56.25%;
 	padding-top:30px;
 	height:0;
