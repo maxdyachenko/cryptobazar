@@ -1929,9 +1929,6 @@ h4 {
 	}
 }
 
-#section2_1 .info-blocks-container:last-child {
-
-}
 
 .last {
 	border-right: 0px solid #000 !important;
@@ -2244,6 +2241,13 @@ h4 {
 	text-align: center;
 	margin-bottom: 60px;
 }
+#section2_1 .event-info-below {
+	text-align: center;
+	line-height: 1.5;
+}
+#section2_1 .event-info-below:last-of-type {
+	margin-bottom: 40px;
+}
 
 #section2_1 {
 	padding: 3em 0;
@@ -2317,6 +2321,34 @@ h4 {
 	color: #000;
 	font-size: 23px;
 	font-weight: bold;
+}
+#section2_1 .button-wrapper {
+	margin-top: 30px;
+	text-align: center;
+}
+#section2_1 .button-wrapper span {
+	font-size: 12px;
+}
+#section2_1 .button-wrapper a.more-button-bay {
+	margin-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 1.5;
+}
+#section2_1 .video-container {
+	position:relative;
+	min-width:700px;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+#section2_1 .video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 .name_2_1 {

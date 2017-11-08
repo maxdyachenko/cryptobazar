@@ -126,23 +126,36 @@
 <section id="section2_1">
     <div class="content-wrapper">
         <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
+        <p class="event-info-below"><?php echo $event_below['top'] ?></p>
+        <p class="event-info-below"><?php echo $event_below['center'] ?></p>
+        <p class="event-info-below"><?php echo $event_below['bottom'] ?></p>
 
-        <div class="newsection">
-            <div class="newsection-left">
-                <p class="info-block-heading"><?php echo $upcoming_events_left['month']; ?></p>
-                <img src="media/images/section2_1/moscow.jpg" alt="Moscow">
-                <p class="info-block-description"><?php echo $upcoming_events_left['date']; ?></p>
-                <button class="more-button-bay" data-popup-open="popup-leave-request"><?php echo $upcoming_events_left['popup_button']; ?></button>
-            </div>
-
-            <div class="newsection-right">
-                <p class="info-block-heading"><?php echo $upcoming_events_right['month']; ?></p>
-                <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">
-                <p class="info-block-description"><?php echo $upcoming_events_right['date']; ?></p>
-                <button class="more-button-bay" data-popup-open="popup-leave-request"><?php echo $upcoming_events_right['popup_button']; ?></button>
-            </div>
+        <div class="video-container">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/iYzX-L2u-y0" frameborder="0" gesture="media" allowfullscreen></iframe>
         </div>
-        <div class="ev"><?php echo $header['event-sity']; ?></div>
+
+        <div class="button-wrapper">
+            <span><?php echo $event_below['href-span'] ?></span>
+            <a href="http://icoaccelerator.io/meetup " class="more-button-bay"><?php echo $event_below['href'] ?></a>
+        </div>
+
+
+        <!--        <div class="newsection">-->
+<!--            <div class="newsection-left">-->
+<!--                <p class="info-block-heading">--><?php //echo $upcoming_events_left['month']; ?><!--</p>-->
+<!--                <img src="media/images/section2_1/moscow.jpg" alt="Moscow">-->
+<!--                <p class="info-block-description">--><?php //echo $upcoming_events_left['date']; ?><!--</p>-->
+<!--                <button class="more-button-bay" data-popup-open="popup-leave-request">--><?php //echo $upcoming_events_left['popup_button']; ?><!--</button>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="newsection-right">-->
+<!--                <p class="info-block-heading">--><?php //echo $upcoming_events_right['month']; ?><!--</p>-->
+<!--                <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">-->
+<!--                <p class="info-block-description">--><?php //echo $upcoming_events_right['date']; ?><!--</p>-->
+<!--                <button class="more-button-bay" data-popup-open="popup-leave-request">--><?php //echo $upcoming_events_right['popup_button']; ?><!--</button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="ev">--><?php //echo $header['event-sity']; ?><!--</div>-->
     </div>
 
 </section>

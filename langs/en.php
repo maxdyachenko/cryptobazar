@@ -48,6 +48,13 @@ $upcoming_events_right = [
     'date' => 'Switzerland - date will be soon',
     'popup_button' => 'Leave a request',
 ];
+$event_below = [
+    'top' => '"HOW TO ATTRACT MILLIONS WITH ICO”',
+    'center' => 'JOIN OUR FREE ONLINE MEETUP <br> on Thursday, 9.11, 19:00 (GMT +3)',
+    'bottom' => 'Get selected by CryptoBazar and meet international investors in Switzerland, New York, Hong Kong and Singapore this year',
+    'href' => 'REGISTER TO PARTICIPATE',
+    'href-span' => 'Language: English',
+];
 
  /**
   * Текст для условий сотрудничества (моб. версия)
