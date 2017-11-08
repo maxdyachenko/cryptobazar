@@ -126,8 +126,8 @@
 <section id="section2_1">
     <div class="content-wrapper">
         <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
-        <p class="event-info-below"><?php echo $event_below['top'] ?></p>
-        <p class="event-info-below"><?php echo $event_below['center'] ?></p>
+        <h4><?php echo $event_below['top'] ?></h4>
+        <p class="event-info-below"><?php echo $event_below['center'] ?><span><?php echo $event_below['center-span'] ?></span></p>
         <p class="event-info-below"><?php echo $event_below['bottom'] ?></p>
 
         <div class="video-container">
@@ -135,8 +135,8 @@
         </div>
 
         <div class="button-wrapper">
-            <span><?php echo $event_below['href-span'] ?></span>
             <a href="http://icoaccelerator.io/meetup " class="more-button-bay"><?php echo $event_below['href'] ?></a>
+            <span><?php echo $event_below['href-span'] ?></span>
         </div>
 
 
