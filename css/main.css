@@ -1607,6 +1607,13 @@ h4 {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.video-container {
+		margin: 0 !important;
+	}
+	#section2_1 .event-info-below {
+		font-size: 1.3em !important;
+	}
 }
 
 @media screen and (max-width: 320px) {
