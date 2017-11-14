@@ -49,12 +49,15 @@ $upcoming_events_right = [
     'popup_button' => 'Leave a request',
 ];
 $event_below = [
-    'top' => 'HOW TO ATTRACT MILLIONS WITH ICO',
-    'center' => 'JOIN OUR FREE ONLINE MEETUP',
-    'center-span' => 'on Thursday, 9.11, 19:00 (GMT +3)',
-    'bottom' => 'Get selected by CryptoBazar and meet international investors in Switzerland, New York, Hong Kong and Singapore this year',
     'href' => 'REGISTER TO PARTICIPATE',
-    'href-span' => 'Language: English',
+];
+$events_new = [
+    '15.11' => '- New York',
+    '20-21.11' => '- Lugano, Switzerland',
+    '30.11' => '- Singapore',
+    '1-2.12' => '- Poland',
+    '7.12' => '- Hong Kong',
+    '15.12' => '- Moscow',
 ];
 
  /**

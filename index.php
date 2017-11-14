@@ -110,13 +110,13 @@
     <div class="content-wrapper">
         <div class="event-wrapper">
             <p class="event-date">
-                <?php echo $header['date']; ?>
+                <?php //echo $header['date']; ?>
             </p>
             <p class="event-name">
-                <strong><?php echo $header['title-veb']; ?></strong>
+                <strong><?php //echo $header['title-veb']; ?></strong>
             </p>
             <a href="/get.html" target="_blank"
-               class="go-to-event"><?php echo $header['record']; ?></a>
+               class="go-to-event"><?php //echo $header['record']; ?></a>
         </div>
         
     </div>
@@ -126,17 +126,28 @@
 <section id="section2_1">
     <div class="content-wrapper">
         <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
-        <h4><?php echo $event_below['top'] ?></h4>
-        <p class="event-info-below"><?php echo $event_below['center'] ?><span><?php echo $event_below['center-span'] ?></span></p>
-        <p class="event-info-below"><?php echo $event_below['bottom'] ?></p>
 
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/iYzX-L2u-y0" frameborder="0" gesture="media" allowfullscreen></iframe>
         </div>
 
         <div class="button-wrapper">
-            <a href="http://icoaccelerator.io/meetup " class="more-button-bay"><?php echo $event_below['href'] ?></a>
-            <span><?php echo $event_below['href-span'] ?></span>
+            <a href="https://goo.gl/Ha1Ttk" class="more-button-bay"><?php echo $event_below['href'] ?></a>
+        </div>
+
+        <div class="events-list">
+            <ul>
+                <?php foreach ($events_new as $date => $city): ?>
+                    <li>
+                        <p class="event-info-below">
+                            <?php echo $date; ?>
+                        </p>
+                        <p class="event-info-below">
+                            <?php echo $city; ?>
+                        </p>
+                    </li>
+                <?php endforeach;?>
+            </ul>
         </div>
 
 
