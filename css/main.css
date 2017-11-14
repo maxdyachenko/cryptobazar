@@ -2267,6 +2267,9 @@ h4 {
 #section2_1 .events-list {
 	margin-top: 30px;
 }
+#section2_1 .events-list li {
+	text-align: center;
+}
 #section2_1 {
 	padding: 3em 0;
 	background-color: #f0f0f0;
