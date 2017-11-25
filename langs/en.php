@@ -52,8 +52,6 @@ $event_below = [
     'href' => 'REGISTER TO PARTICIPATE',
 ];
 $events_new = [
-    '15.11' => '- New York',
-    '20-21.11' => '- Lugano, Switzerland',
     '30.11' => '- Singapore',
     '1-2.12' => '- Poland',
     '7.12' => '- Hong Kong',

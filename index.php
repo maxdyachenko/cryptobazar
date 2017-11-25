@@ -128,7 +128,7 @@
         <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
 
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/iYzX-L2u-y0" frameborder="0" gesture="media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/oCu1F5jhXQA" frameborder="0" gesture="media" allowfullscreen></iframe>
         </div>
 
         <div class="button-wrapper">
