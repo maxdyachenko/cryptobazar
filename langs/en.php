@@ -52,10 +52,7 @@ $event_below = [
     'href' => 'REGISTER TO PARTICIPATE',
 ];
 $events_new = [
-    '30.11' => '- Singapore',
-    '1-2.12' => '- Poland',
-    '7.12' => '- Hong Kong',
-    '15.12' => '- Moscow',
+    '21.12' => '- Moscow',
 ];
 
  /**
