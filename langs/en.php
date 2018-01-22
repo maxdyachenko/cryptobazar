@@ -28,32 +28,10 @@ $src2 = 'media/images/section8/work-steps-cryptobazar-en.svg';
  $header = [
     'big-text' => '<span class="big-text">INVEST IN PROJECTS</span><br/>BEFORE ICO',
     'description' => 'and watch your capital grow exponentially',
-    'date' => '<strong>FREE WEBINAR</strong><br><strong>August 17</strong> 20:00',
-    'record' => 'Check in',
-    'title-veb' => 'How to prepare a project for<br> negotiations with an investor',
-    'event-veb' => 'Upcoming</span> events:',
-    'event-sity' => '<a href="https://www.youtube.com/watch?v=YcZOzPbx4yw&feature=youtu.be" target="_blank">View previous event record</a>'
  ];
 
-/**
- * Текст для Ближайшие События
- */
-$upcoming_events_left = [
-    'month' => 'November',
-    'date' => 'Moscow - 15 november',
-    'popup_button' => 'Leave a request',
-];
-$upcoming_events_right = [
-    'month' => 'November',
-    'date' => 'Switzerland - date will be soon',
-    'popup_button' => 'Leave a request',
-];
-$event_below = [
-    'href' => 'REGISTER TO PARTICIPATE',
-];
-$events_new = [
-    '21.12' => '- Moscow',
-];
+
+
 
  /**
   * Текст для условий сотрудничества (моб. версия)
@@ -298,7 +276,7 @@ $step3 = '<span>STEP 3. </span>Get CryptoBazar Tokens for BTC ';
 $bootpdf = '<a href="/media/images/CBT-Waves_Eng.pdf" target="_blank">View detailed instructions in PDF</a>';
  
 $s13title_right = '<span>Apply to invest</span><br>with CrytpoBazar<br>Fund';
-$s13righttext = 'For personal communication<br>with fund managers<br>for amounts from 20 ВТС';
+$s13righttext = 'For personal communication<br>with fund managers<br>for amounts from 5 ВТС';
 $boots13right = '<a href="https://docs.google.com/forms/d/1L14PbHJttKnggtoF84vt97MhZ5FFWec1TBVSLMkevPk/viewform?edit_requested=true" target="_blank">Apply to invest with us</a>';
 
 
@@ -308,14 +286,6 @@ $boots13right = '<a href="https://docs.google.com/forms/d/1L14PbHJttKnggtoF84vt9
 /**
 * Текст для секции "Инвестиционная стратегия"
 */
-$strategy_head = 'INVESTMENT STRATEGY';
-$strategy_list = '<li>100% investment in ICO projects</li>
-<li>Entry before ICO<br/><br/></li>
-<li>100% of the investment “body” recovered immediately after ICO</li>
-<li>Earnings reinvested into project growth<br/><br/></li>
-<li>“Idle capital” (Money not invested in ICOs) is held by the Fund in its own automated conservative short-term lending bot secured by guarantees of top token exchanges<br/><br/></li>
-<li>Calculation of earnings — every month</li>
-<li>Exit after lock-up period – any time</li>';
 
 $strategy_invest_head = 'INVESTMENT TERMS';
 $strategy_invest_list = '<p class="invest-point"><strong>4%</strong><br/>Entry fee</p>
@@ -330,7 +300,7 @@ $strategy_button = '<a href="https://docs.google.com/forms/d/1L14PbHJttKnggtoF84
 /**
 * Текст для секции с контактной информацией
 */
-$contact_info = '<h4 class="header">CRYPTO BAZAR</h4>
+$contact_info = '<h4 class="header">CRYPTO BAZAR HQ</h4>
 <p class="phone">+7 (499) 372 30 11</p>
 <p class="address">Barclay Plaza Business Center Bldg 5, 6 Barklaya St<br/>Park Pobedy Metro Station, Moscow</p>
 <a class="email" href="mailto:info@cryptobazar.io">E-mail us</a>

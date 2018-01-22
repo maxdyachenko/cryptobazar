@@ -29,41 +29,18 @@ $src2 = 'media/images/section8/work-steps-cryptobazar.svg';
  $header = [
     'big-text' => '<span class="big-text">ИНВЕСТИРУЙТЕ В ПРОЕКТЫ</span><br/>ДО ИХ ВЫВОДА НА ICO',
     'description' => 'и получайте кратный прирост к вложениям',
-    'date' => '<strong>БЕСПЛАТНЫЙ ВЕБИНАР</strong><br><strong>17 августа в</strong> 20:00',
-    'record' => 'Зарегистрироваться',
-    'title-veb' => 'Как подготовить проект<br> к переговорам с инвестором',
-    'event-veb' => 'Ближайшие</span> события:',
-    'event-sity' => '<a href="https://www.youtube.com/watch?v=YcZOzPbx4yw&feature=youtu.be" target="_blank">Смотреть запись предыдущего мероприятия</a>'
  ];
 
-/**
- * Текст для Ближайшие События
- */
-$upcoming_events_left = [
-    'month' => 'Ноябрь',
-    'date' => 'Москва - 15 ноября',
-    'popup_button' => 'Оставить заявку',
-];
-$upcoming_events_right = [
-    'month' => 'Ноябрь',
-    'date' => 'Швейцария - дата уточняется',
-    'popup_button' => 'Оставить заявку',
-];
-$event_below = [
-    'href' => 'ЗАРЕГИСТРИРОВАТЬСЯ',
-];
-$events_new = [
-    '21.12' => '- Москва',
-];
+
 
 
  /**
   * Текст для условий сотрудничества (моб. версия)
   */
 $investment_mob = [
-     '3-6 МЕСЯЦЕВ' => 'цикл инвестирования',
+     'ежедневный обратный выкуп от фонда' => 'цикл инвестирования',
      '3-х ЗНАЧНАЯ' => 'прогнозируемая годовая доходность',
-     '20 BTC' => 'минимальный размер инвестиций',
+     'с любой минимальной суммы',
      '10-12' => 'инвестиций в ICO ежегодно',
 ];
 
@@ -72,8 +49,8 @@ $investment_mob = [
 */
 $investment = [
   'Условия сотрудничества',
-  '20 BTC' => 'мин. размер инвестиций',
-  '3-6 месяцев' => 'цикл инвестирования',
+  'с любой минимальной суммы',
+  'ежедневный обратный выкуп от фонда' => 'цикл инвестирования',
   '10-12' => 'инвестиций в ICO ежегодно',
   '3-х ЗНАЧНАЯ' => 'прогнозируемая годовая доходность',
 ];
@@ -185,7 +162,7 @@ $instruments_list = [
 */
 $stat_head = '<span class="highlighted">Cтатистика доходности</span> TОП-30 наиболее<br>успешных ICO (Initial Coin
     Offerings)';
-$stat_desc = 'ИНВЕСТИРОВАНИЕ ДО ЗАПУСКА ICO УВЕЛИЧИВАЕТ ДОХОДНОСТЬ<br>И СНИЖАЕТ РИСКИ!';
+$stat_desc = 'СТРАТЕГИЯ ФОНДА ВЫИСКИВАТЬ БУДУЩИХ ЕДИНОРОГОВ И ПОМОГАТЬ ИМ ВСЕМИ ВОЗМОЖНЫМИ РЕСУРСАМИ, ВКЛЮЧАЯ ИНВЕСТИРОВАНИЕ';
 $stat_carousel_title = 'ROI проектов с момента выхода на ICO';
 
 
@@ -296,15 +273,6 @@ $roadmap_list = [
 /**
 * Текст для секции "Инвестиционная стратегия"
 */
-$strategy_head = 'ИНВЕСТИЦИОННАЯ СТРАТЕГИЯ';
-$strategy_list = '<li>Инвестирование в ICO-проекты – 100%</li>
-<li>Вход – до запуска ICO<br/><br/></li>
-<li>Возврат 100% тела сразу после ICO</li>
-<li>Реинвестиции дохода в рост проекта<br/><br/></li>
-<li>Неразмещенные в ICO средства фонд держит в собственном автоматизированном консервативном инструменте
-    краткосрочного кредитования под гарантии бирж<br/><br/></li>
-<li>Расчет доходности портфеля – 1 раз в месяц</li>
-<li>Выход после lockup – в любой момент</li>';
 
 $strategy_invest_head = 'УСЛОВИЯ ИНВЕСТИРОВАНИЯ';
 $strategy_invest_list = '<p class="invest-point"><strong>4%</strong><br/>Комиссия на входе</p>
@@ -328,7 +296,7 @@ $step3 = '<span>ШАГ 3. </span>Получи CryptoBazar Tokens за BTC ';
 $bootpdf = '<a href="/media/images/CBT-Waves_Rus.pdf" target="_blank">Смотреть подробную инструкцию в PDF</a>';
 
 $s13title_right = '<span>Отправить заявку</span><br>на инвестирование проекта<br>в CryptoBazar Fund';
-$s13righttext = 'Для личного общения<br> с менеджерами фонда<br> по суммам от 20 ВТС';
+$s13righttext = 'Для личного общения<br> с менеджерами фонда<br> по суммам от 5 ВТС';
 $boots13right = '<a href="https://docs.google.com/forms/d/19oOeMoifaAvke1bQHrPnkYX3-birJ1gfJkQ6PJRl44E/viewform?edit_requested=true" target="_blank">Отправить заявку на инвестрование</a>';
 
 
@@ -340,7 +308,7 @@ $boots13right = '<a href="https://docs.google.com/forms/d/19oOeMoifaAvke1bQHrPnk
 /**
 * Текст для секции с контактной информацией
 */
-$contact_info = '<h4 class="header">CRYPTO BAZAR</h4>
+$contact_info = '<h4 class="header">CRYPTO BAZAR HQ</h4>
 <p class="phone">+7 (499) 372 30 11</p>
 <p class="address">БЦ «Барклай Плаза» ул. Барклая, д.6 стр.5<br/>г. Москва, м. Парк Победы</p>
 <a class="email" href="mailto:info@cryptobazar.io">Написать E-mail</a>

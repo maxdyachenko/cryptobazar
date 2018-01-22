@@ -13,6 +13,7 @@
           content="<?php echo $meta_descrioption; ?>"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="../media/images/beidge.png"/>
+    <meta http-equiv="Cache-Control" content="no-cache">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <!--<link rel="stylesheet" href="css/reset.css" type="text/css"/>-->
@@ -87,70 +88,6 @@
     </div>
 </section>
 
-<!--<section id="section2">
-    <div class="content-wrapper">
-        <div class="event-wrapper">
-            <p class="event-date">
-                <?php //echo $header['date']; ?>
-            </p>
-            <p class="event-name">
-                <strong><?php //echo $header['title-veb']; ?></strong>
-            </p>
-            <a href="/get.html" target="_blank"
-               class="go-to-event"><?php //echo $header['record']; ?></a>
-        </div>
-
-    </div>
-</section>-->
-
-
-<section id="section2_1">
-    <div class="content-wrapper">
-        <h2><span class="highlighted"><?php echo $header['event-veb']; ?></h2>
-
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/pjdbAcdNyj4" frameborder="0" gesture="media" allowfullscreen></iframe>
-        </div>
-
-        <div class="button-wrapper">
-            <a href="https://goo.gl/Ha1Ttk" class="more-button-bay"><?php echo $event_below['href'] ?></a>
-        </div>
-
-        <div class="events-list">
-            <ul>
-                <?php foreach ($events_new as $date => $city): ?>
-                    <li>
-                        <p class="event-info-below">
-                            <?php echo $date; ?>
-                        </p>
-                        <p class="event-info-below">
-                            <?php echo $city; ?>
-                        </p>
-                    </li>
-                <?php endforeach;?>
-            </ul>
-        </div>
-
-
-        <!--        <div class="newsection">-->
-        <!--            <div class="newsection-left">-->
-        <!--                <p class="info-block-heading">--><?php //echo $upcoming_events_left['month']; ?><!--</p>-->
-        <!--                <img src="media/images/section2_1/moscow.jpg" alt="Moscow">-->
-        <!--                <p class="info-block-description">--><?php //echo $upcoming_events_left['date']; ?><!--</p>-->
-        <!--                <button class="more-button-bay" data-popup-open="popup-leave-request">--><?php //echo $upcoming_events_left['popup_button']; ?><!--</button>-->
-        <!--            </div>-->
-        <!---->
-        <!--            <div class="newsection-right">-->
-        <!--                <p class="info-block-heading">--><?php //echo $upcoming_events_right['month']; ?><!--</p>-->
-        <!--                <img src="media/images/section2_1/switzerland.jpg" alt="Switzerland">-->
-        <!--                <p class="info-block-description">--><?php //echo $upcoming_events_right['date']; ?><!--</p>-->
-        <!--                <button class="more-button-bay" data-popup-open="popup-leave-request">--><?php //echo $upcoming_events_right['popup_button']; ?><!--</button>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        <div class="ev">--><?php //echo $header['event-sity']; ?><!--</div>-->
-    </div>
-
-</section>
 
 <section id="section3">
     <div class="content-wrapper">
@@ -159,8 +96,10 @@
         <div class="info-blocks-container">
             <?php foreach ($investment as $invest_k => $invest_v): ?>
                 <div class="info-block">
-                    <p class="info-block-heading"><?php echo $invest_k; ?></p>
-                    <div class="line"></div>
+                    <?php if (isset($invest_k) && $invest_k): ?>
+                        <p class="info-block-heading"><?php echo $invest_k; ?></p>
+                        <div class="line"></div>
+                    <?php endif; ?>
                     <p class="info-block-description"><?php echo $invest_v; ?></p>
                 </div>
             <?php endforeach; ?>
@@ -386,12 +325,6 @@
 
 
 <section id="section12">
-    <div class="content-block block1">
-        <h2 class="header"><?php echo $strategy_head; ?></h2>
-        <ul class="strategy-list">
-            <?php echo $strategy_list; ?>
-        </ul>
-    </div>
     <div class="content-block block2">
         <h2 class="header"><?php echo $strategy_invest_head; ?></h2>
         <?php echo $strategy_invest_list; ?>
