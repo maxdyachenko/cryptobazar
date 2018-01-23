@@ -544,10 +544,7 @@ h4 {
 	-ms-flex-flow: row wrap;
 	flex-flow: row wrap
 }
-#section3 .info-blocks-container .info-block:first-of-type {
-	align-self: center;
-	text-align: center;
-}
+
 #section3 .info-blocks-container .info-block {
 	max-width: 220px;
 	-ms-flex-negative: 0;
@@ -786,7 +783,123 @@ h4 {
 #section5 .column.second .column-text strong {
 	color: #5f85ab
 }
+#logos-section {
+	padding: 3rem 0;
+	text-align: center;
+}
+#logos-section img {
+	max-width: 251px;
+	height: auto;
+	/*margin: auto;*/
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: gray;
+	filter: #808080;
+	opacity: .5
+}
+#logos-section .slick-track {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+.slick-slide {
+	height: auto;
+}
+#logos-section h3 {
+	font-size: 1.3rem;
+}
+#logos-section .section {
+	margin: 2rem 0;
+	text-align: center;
+}
+#logos-section h3 {
+	margin: 2rem 0;
+}
 
+#map-section {
+	padding-top: 3rem;
+}
+#map-section .wrapper-desktop {
+	position: relative;
+}
+#map-section .wrapper-mobile {
+	display: none;
+}
+#map-section img {
+	max-width: 100%;
+}
+#map-section .handler {
+	position: absolute;
+	width: 4.468%;
+	cursor: pointer;
+}
+#map-section .handler .on-hover {
+	display: none;
+}
+#map-section .handler.usa-1 {
+	top:34%;
+	left: 30.5%;
+}
+#map-section .popup {
+	display: none;
+	padding: 12px 18px 18px 18px;
+}
+#map-section .popup .close-map-popup {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 26px;
+	height: 26px;
+	background: url(../media/images/map-section/close.png) 0 0 / contain no-repeat;
+
+}
+#map-section .popup .headline {
+	font: 700 18px / 1.2 Roboto;
+	color: #292929;
+}
+#map-section .popup .text {
+	margin-top: 10px;
+	font: 500 14px / 1.4 Roboto;
+	color: #292929;
+}
+#map-section .popup .video-btn {
+	margin-top: 25px;
+	font: 500 14px / 1.4 Roboto;
+	text-decoration: underline;
+	text-align: right;
+	color: #396d9f;
+}
+#map-section .handler.hovered{
+	width: 400px;
+	background: #fff;
+}
+
+#map-section .handler.usa-1.hovered {
+	top:34.5%;
+	left: 30.85%;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.75);
+}
+#map-section .handler.hovered .stable {
+	display: none;
+}
+#map-section .handler.hovered .on-hover {
+	display: block;
+	padding: 5px;
+	margin: -5px;
+}
+#map-section .underlayer {
+	display: none;
+	z-index: 999;
+}
+#map-section .underlayer iframe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#map-section h2 {
+	text-align: center;
+}
 #section6 {
 	padding: 4em 0 2em;
 	background-color: #f3f4fa;
@@ -813,7 +926,7 @@ h4 {
 	outline: none
 }
 
-#section6 .slick-carousel img {
+#section6 .slick-carousel img{
 	max-width: 140px;
 	margin: auto;
 	-webkit-filter: grayscale(100%);
@@ -823,7 +936,7 @@ h4 {
 	opacity: .5
 }
 
-#section6 .slick-carousel img:hover {
+#section6 .slick-carousel img:hover{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 	-webkit-filter: none;
@@ -831,21 +944,21 @@ h4 {
 	opacity: 1
 }
 
-#section6 .slick-carousel .slick-dots {
+.slick-dots {
 	padding: 24px 0 21px
 }
 
-#section6 .slick-carousel .slick-dots li {
+.slick-dots li {
 	display: inline-block;
 	opacity: .4;
 	margin: 0 6px
 }
 
-#section6 .slick-carousel .slick-dots li.slick-active {
+.slick-dots li.slick-active {
 	opacity: 1
 }
 
-#section6 .slick-carousel .slick-dots li button {
+.slick-dots li button {
 	border: none;
 	border-radius: 50%;
 	outline: none;
@@ -1461,7 +1574,7 @@ h4 {
 		max-width: 640px
 	}
 	
-	#section4, #section5, #section6, #section8, #section11 {
+	#section4, #section5, #section6, #section8, #section11, #map-section, #logos-section {
 		font-size: 10px
 	}
 }
@@ -1693,7 +1806,7 @@ h4 {
 		margin-bottom: 1.5em
 	}
 	
-	#section4, #section5, #section6, #section8, #section11 {
+	#section4, #section5, #section6, #section8, #section11, #map-section, #logos-section {
 		font-size: 9px
 	}
 	
@@ -1975,6 +2088,15 @@ h4 {
 		background-repeat: no-repeat;
 		left: 50% !important;
 		margin-left: -197px;
+	}
+}
+
+@media (max-width: 1024px) {
+	#map-section .wrapper-desktop {
+		display: none;
+	}
+	#map-section .wrapper-mobile {
+		display: block;
 	}
 }
 

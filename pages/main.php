@@ -178,6 +178,80 @@
     </div>
 </section>
 
+<section id="logos-section">
+    <div class="content-wrapper">
+        <h2><?php echo $logos_headline ?></h2>
+        <?php foreach ($sections as $section): ?>
+            <div class="section">
+                <h3><?php echo $section['head'] ?></h3>
+                <div class="carousel-logos"><?php echo $section['images'] ?></div>
+            </div>
+        <?php endforeach; ?>
+<!--        <div class="section">-->
+<!--            <h3>Биржи и трейдинг</h3>-->
+<!--            <div class="carousel-logos">-->
+<!--                <img src="media/images/carousel-section/trading/1.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/2.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/3.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/4.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/5.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/6.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/trading/7.png" alt="logo">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section">-->
+<!--            <h3>Медиа</h3>-->
+<!--            <div class="carousel-logos">-->
+<!--                <img src="media/images/carousel-section/media/1.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/media/2.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/media/3.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/media/4.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/media/5.png" alt="logo">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section">-->
+<!--            <h3>Регуляторы и лигал</h3>-->
+<!--            <div class="carousel-logos">-->
+<!--                <img src="media/images/carousel-section/regulators/1.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/regulators/2.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/regulators/3.png" alt="logo">-->
+<!--                <img src="media/images/carousel-section/regulators/4.png" alt="logo">-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</section>
+
+<section id="map-section">
+    <h2>CryptoBazar в мире</h2>
+    <div class="wrapper-desktop">
+        <img src="media/images/map-section/map.jpg" alt="Map">
+        <div class="wrapper-handlers">
+            <div class="handler usa-1">
+                <img class="stable" src="media/images/map-section/logo.png" alt="logo">
+                <img class="on-hover" src="media/images/map-section/logo-active.png" alt="logo">
+                <div class="popup">
+                    <div class="close-map-popup">
+
+                    </div>
+                    <p class="headline">
+                        CryptoBazar Warsaw
+                    </p>
+                    <p class="text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </p>
+                    <p class="video-btn">Подробнее</p>
+                </div>
+                <div class="underlayer">
+                    <iframe class="youtube-iframe" width="800" height="452" src="https://www.youtube.com/embed/CnOduh6Pd2E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-mobile">
+        <img src="media/images/map-section/map-mobile.jpg" alt="Map">
+    </div>
+</section>
+
 <section id="section6">
     <div class="content-wrapper">
         <h2><?php echo $stat_head; ?></h2>

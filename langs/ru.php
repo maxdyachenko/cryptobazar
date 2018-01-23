@@ -10,6 +10,7 @@ $meta_descrioption = "CryptoBazar – предлагает частным инв
 $menu = [
   '#section4' => 'КОМАНДА',
   '#section5' => 'ПРЕИМУЩЕСТВА',
+  '#map-section' => 'КАРТА',
   '#section8' => 'МОДЕЛЬ ВЫВОДА',
   '#section9' => 'СХЕМА РАБОТЫ',
   '#section11' => 'ROADMAP',
@@ -40,7 +41,7 @@ $src2 = 'media/images/section8/work-steps-cryptobazar.svg';
 $investment_mob = [
      'ежедневный обратный выкуп от фонда' => 'цикл инвестирования',
      '3-х ЗНАЧНАЯ' => 'прогнозируемая годовая доходность',
-     'с любой минимальной суммы',
+     'с любой минимальной суммы' => 'размер инвестирования',
      '10-12' => 'инвестиций в ICO ежегодно',
 ];
 
@@ -49,7 +50,7 @@ $investment_mob = [
 */
 $investment = [
   'Условия сотрудничества',
-  'с любой минимальной суммы',
+  'с любой минимальной суммы' => 'размер инвестирования',
   'ежедневный обратный выкуп от фонда' => 'цикл инвестирования',
   '10-12' => 'инвестиций в ICO ежегодно',
   '3-х ЗНАЧНАЯ' => 'прогнозируемая годовая доходность',
@@ -71,7 +72,7 @@ $people = [
     • 90 млн. долл. – собственные проекты<div class="fb"><a href="https://www.facebook.com/ivanovinvest" target="_blank"><img src="/media/images/facebook.png"></a>
     <a href="https://www.instagram.com/ivanovinvest/" target="_blank" style="margin-left:10px;"><img src="/media/images/inst.png"></a>
     <a href="https://www.linkedin.com/in/IvanovInvest/" target="_blank" style="margin-left:10px;"><img src="/media/images/linked.png"></a></div>',
-    
+
   ],
 
   'Андрей Юдин' => [
@@ -155,6 +156,54 @@ $instruments_list = [
         </p>
     </div>',
   ],
+];
+
+/**
+ * Текст для секции для инвесторов
+ */
+$logos_headline = 'Для инвесторов - мировая экспертиза от лучших. Для проектов - окно доступа к топ блокчейн ресурсам';
+$sections = [
+	'section1' => [
+		'head' => 'Aссоциации и платформы',
+		'images' => '
+                <img src="media/images/carousel-section/platforms/1.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/2.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/3.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/4.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/5.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/6.png" alt="logo">
+                <img src="media/images/carousel-section/platforms/7.png" alt="logo">'
+	],
+	'section2' => [
+		'head' => 'Биржи и трейдинг',
+		'images' => '
+                <img src="media/images/carousel-section/trading/1.png" alt="logo">
+                <img src="media/images/carousel-section/trading/2.png" alt="logo">
+                <img src="media/images/carousel-section/trading/3.png" alt="logo">
+                <img src="media/images/carousel-section/trading/4.png" alt="logo">
+                <img src="media/images/carousel-section/trading/5.png" alt="logo">
+                <img src="media/images/carousel-section/trading/6.png" alt="logo">
+                <img src="media/images/carousel-section/trading/7.png" alt="logo">'
+	],
+	'section3' => [
+		'head' => 'Медиа',
+		'images' => '
+                <img src="media/images/carousel-section/media/1.png" alt="logo">
+                <img src="media/images/carousel-section/media/2.png" alt="logo">
+                <img src="media/images/carousel-section/media/3.png" alt="logo">
+                <img src="media/images/carousel-section/media/4.png" alt="logo">
+                <img src="media/images/carousel-section/media/5.png" alt="logo">
+           '
+	],
+	'section4' => [
+		'head' => 'Регуляторы и лигал',
+		'images' => '
+                <img src="media/images/carousel-section/regulators/1.png" alt="logo">
+                <img src="media/images/carousel-section/regulators/2.png" alt="logo">
+                <img src="media/images/carousel-section/regulators/3.png" alt="logo">
+                <img src="media/images/carousel-section/regulators/4.png" alt="logo">
+           '
+	]
 ];
 
 /**
