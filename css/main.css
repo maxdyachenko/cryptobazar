@@ -589,7 +589,27 @@ h4 {
 	background-color: #f0f0f0;
 	padding: 4em 0 2em
 }
-
+#profile-section {
+	padding: 2.5em 0;
+}
+#profile-section .profile-header {
+	padding: 13px 0;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font: 400 16px / 1.2 Roboto;
+	background-color: #6793bd;
+}
+#profile-section .profile-block {
+	margin: 1em 0;
+	max-width: 382px;
+}
+#profile-section .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1600px;
+}
 #section4 .content-wrapper {
 	width: 100%
 }
@@ -815,7 +835,13 @@ h4 {
 #logos-section h3 {
 	margin: 2rem 0;
 }
-
+#logos-section img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+	-webkit-filter: none;
+	filter: none;
+	opacity: 1
+}
 #map-section {
 	padding-top: 3rem;
 }
@@ -1583,7 +1609,9 @@ h4 {
 	#section1 .content-wrapper {
 		padding: 7.5em .5em 0
 	}
-	
+	#profile-section .content-wrapper {
+		justify-content: space-around;
+	}
 	#footer-section {
 		flex-direction: column
 	}
@@ -1622,7 +1650,15 @@ h4 {
 		background-size: cover;
 		padding-top: 6em
 	}
-	
+	#profile-section {
+		padding: 0em;
+	}
+	#profile-section .profile-block {
+		width: 95%;
+	}
+	#profile-section .profile-block img {
+		max-width: 100%;
+	}
 	#section1 .logo {
 		display: block;
 		max-width: 70%;

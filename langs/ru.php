@@ -59,6 +59,29 @@ $investment = [
 $learn_more = '<a href="#section13" class="more-button"><?php echo $learn_more; ?>Узнать подробнее</a>';
 
 /**
+ * Текст для секции Profile отсюда cryptobazar.io/profile
+ */
+$profile_blocks = [
+	'block1' => [
+		'head' => 'Цена CryptoBazar Token (CBT)',
+		'img' => '<img src="media/images/profile-section/block1.jpg" alt="Profile">'
+	],
+	'block2' => [
+		'head' => 'Динамика стоимости портфеля фонда',
+		'img' => '<img src="media/images/profile-section/block2.jpg" alt="Profile">'
+	],
+	'block3' => [
+		'head' => 'Структура портфеля фонда',
+		'img' => '<img src="media/images/profile-section/block3.jpg" alt="Profile">'
+	],
+	'block4' => [
+		'head' => 'Динамика размера фонда ',
+		'img' => '<img src="media/images/profile-section/block4.jpg" alt="Profile">'
+	],
+];
+
+
+/**
 * Текст для секции "Команда Crypto BAZAR"
 */
 $team_name = '<span class="highlighted">Команда</span> Crypto BAZAR';

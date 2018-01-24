@@ -109,6 +109,18 @@
     </div>
 </section>
 
+<section id="profile-section">
+    <div class="content-wrapper">
+        <?php foreach ($profile_blocks as $profile): ?>
+            <div class="profile-block">
+                <p class="profile-header"><?php echo $profile['head'] ?></p>
+                <div class="profile-body">
+                    <?php echo $profile['img'] ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</section>
 
 
 <section id="section4">
